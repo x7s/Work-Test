@@ -133,3 +133,25 @@ filterButtons.forEach(button => {
 // Инициализация при зареждане
 renderProducts(products);
 renderStats();
+
+document.getElementById('addButton').addEventListener('click', addProduct);
+
+function addProduct() {
+  const img = document.getElementById('newImage').value.trim();
+  const name = document.getElementById('newName').value.trim();
+  const plu  = document.getElementById('newPlu').value.trim();
+  const grp  = document.getElementById('newGroup').value;
+
+  if (!img || !name || !plu) {
+    alert('Попълни всички полета преди добавяне.');
+    return;
+  }
+
+  products.push({ image: img, name, plu, group: grp });
+  renderProducts(products);
+  renderStats();
+  // Изчистване на формата
+  document.getElementById('newImage').value = '';
+  document.getElementById('newName').value  = '';
+  document.getElementById('newPlu').value   = '';
+}

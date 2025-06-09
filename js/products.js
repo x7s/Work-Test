@@ -151,5 +151,11 @@ const products = [
     { image: "./images/bulgarien----3_9873_100x100.webp", name: "Пресен лук 3бр.", plu: "443", group: "Зеленчуци" },
     { image: "./images/bulgarien----_9877_100x100.webp", name: "Домати биволско сърце", plu: "621", group: "Зеленчуци" },
     { image: "./images/bulgarien-----_9878_100x100.webp", name: "Домати Кумато на кг", plu: "447", group: "Зеленчуци" },
+    { image: "./images/bulgarien-----_9977_100x100.webp", name: "Баница с локум", plu: "948", group: "Печива сладки" },
+    { image: "./images/bulgarien------_9969_100x100.webp", name: "Бисквити Дулсе де Лече", plu: "906", group: "Печива сладки" },
+    { image: "./images/bulgarien-----_9970_100x100.webp", name: "Закуска с месо", plu: "917", group: "Печива солени" },
+    { image: "./images/bulgarien-------_9975_100x100.webp", name: "Пица с шунка и моцарела", plu: "942", group: "Печива солени" },
+    { image: "./images/bulgarien-------xxl_9262_100x100.webp", name: "Минифранзела със семена XXL", plu: "843", group: "Хлябове, багети, хлебчета" },
+    { image: "./images/bulgarien-------_9976_100x100.webp", name: "Багета по френски стил", plu: "987", group: "Хлябове, багети, хлебчета" },
     { image: "./images/bulgarien-----_9925_100x100.webp", name: "Хлебче с маслини", plu: "886", group: "Печива солени" }
 ];
